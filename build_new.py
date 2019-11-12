@@ -2,8 +2,8 @@
 side_index = open('/home/matt/Kickstart Frontend/homework/homework_2/blog/templates/side_index.html').read() 
 top_index = open("/home/matt/Kickstart Frontend/homework/homework_2/blog/templates/top_index.html").read()
 content_index = open("/home/matt/Kickstart Frontend/homework/homework_2/blog/content/content_index.html").read()
-built_index = side_index + top_index + content_index
-open("/home/matt/Kickstart Frontend/homework/homework_2/blog/docs/built_index.html","w").write(built_index)
+index = side_index + top_index + content_index
+open("/home/matt/Kickstart Frontend/homework/homework_2/blog/docs/index.html","w").write(index)
 
 side_blog = open("/home/matt/Kickstart Frontend/homework/homework_2/blog/templates/side_blog-post_Cubell.html").read()
 blog_post_Cubell = open("/home/matt/Kickstart Frontend/homework/homework_2/blog/content/blog-post_Cubell_content.html").read()
