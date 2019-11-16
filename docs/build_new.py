@@ -22,3 +22,5 @@ def main():
     side_blog_list_content =open("./content/blog-list_Cubell_content.html").read()
     built_blog_list = side_blog_list + side_blog_list_content
     open("./built_blog-list.html","w").write(built_blog_list)
+
+main()
